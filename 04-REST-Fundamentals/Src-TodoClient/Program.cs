@@ -7,7 +7,6 @@ namespace TodoClient
     {
         static void Main(string[] args)
         {
-            var client = new TodoApi();
             UseApi().Wait();
         }
 
